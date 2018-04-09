@@ -1,0 +1,304 @@
+/* This file is for your main application css. */
+
+@import "bootstrap";
+
+h1 {
+    text-align: center;
+}
+
+#game {
+
+    height: 100%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body, html {
+    background: url(reversi2.jpg);
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background-size: auto;
+    background-size: cover;
+}
+
+.gameNames {
+    margin-left: 35%;
+    height: 30%;
+    width: 30%;
+    font-size: 20px;
+}
+
+.navigate {
+    text-align: right;
+}
+
+html {
+    padding: 0;
+}
+
+table {
+   border: 1px solid white;
+   box-sizing: initial;
+}
+
+.table td {
+    border-top: 1px solid white;
+}
+
+th, td {
+    
+    border-bottom: 1px solid white;
+}
+
+.container {
+    height: 100%;
+}
+
+.index-page {
+    text-align: center;
+    color: white;
+}
+
+
+a {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gn {
+    text-align: left;
+}
+
+.join {
+    padding-top: 5%;
+}
+
+.title {
+    color: white;
+}
+
+.gametitle {
+    color: #CDA96D;
+}
+
+.rules {
+    padding-top: 20px;
+    text-align: center;
+}
+
+ul {
+    color: white;
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 27%;
+    margin-right: 0;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.dgButtons{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: darkgreen;
+}
+
+.lgButtons{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0%;
+    background-color: #CDA96D;
+    border: 1px solid black;
+}
+
+.naming {
+    color: #CDA96D;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0%;
+    text-align: center;
+}
+
+.numbering {
+    color: #CDA96D;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 2%;
+}
+
+.score {
+    width: 80%;
+    height: 80%;
+    background-color: #CDA96D;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2px solid black;
+}
+
+.rowLetter{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.colLetter{
+    font-size: 15px;
+}
+
+.disc-bl {
+    background-color:black;
+    border-radius: 100%;
+    width:100%;
+    height:100%;
+}
+
+.disc-black {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 40%;
+    font-size: 1.2em;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+}
+
+.turn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.disc-white {
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 40%;
+    font-size: 1.2em;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+}
+
+.board {
+    width: 50%;
+    float: left;
+    margin: 5%
+}
+
+.player {
+    text-align: center;
+    width: 40%;
+    float: right;
+    margin-top: 12%;
+}
+
+
+.playerJoin{
+    color: #CDA96D;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.spectator{
+    color: #CDA96D;
+    margin-left: 24.5%;
+    margin-top: 3%;
+}
+
+
+.playerJoinIp{
+    margin-left: 23%;
+    margin-top: 3%;
+    line-height: 30px;
+}
+
+.playerJoinBt{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.disc-wh {
+    background-color:white;
+    border-radius: 100%;
+    width:100%;
+    height:100%;
+}
+
+.card-deck .card {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 50px;
+    background-color: Grey;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.table-title{
+    margin-top: 5%
+}
+
+.matched {
+    background-color: White;
+    text-align: center;
+    line-height: 2;
+}
+
+.row {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.rightCol {
+    float: right;
+}
+
+.modal {
+    display: block;
+    padding-top: 20%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
